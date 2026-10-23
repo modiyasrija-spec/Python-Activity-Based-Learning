@@ -1,0 +1,9 @@
+Case Study 12: Attendance Recovery Computation
+
+Problem Statement
+
+Students must maintain the minimum attendance percentage required by their college. This program calculates the student's current attendance percentage based on the total number of classes conducted and the number of classes attended.
+
+If the student's attendance is below the required 75%, the program calculates the minimum number of additional consecutive classes the student must attend without missing any classes to reach the required percentage. If the attendance requirement is already satisfied, the program displays a suitable message.
+
+The program also validates the input values to avoid invalid attendance data.

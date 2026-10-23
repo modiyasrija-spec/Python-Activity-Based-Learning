@@ -1,0 +1,31 @@
+Test Cases
+
+Test Case 1: Stock Reconciled
+
+Input:
+Product name: Pen
+Opening stock: 100
+Incoming quantity: 50
+Dispatched quantity: 30
+Actual closing stock: 120
+
+Expected result:
+Expected closing stock: 120
+Discrepancy: 0
+Status: Stock reconciled
+Replenishment required: 0
+
+Test Case 2: Stock Shortage
+
+Input:
+Product name: Book
+Opening stock: 80
+Incoming quantity: 20
+Dispatched quantity: 30
+Actual closing stock: 60
+
+Expected result:
+Expected closing stock: 70
+Discrepancy: -10
+Status: Stock discrepancy detected
+Replenishment required: 10

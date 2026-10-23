@@ -1,0 +1,1 @@
+The Student Marks Matrix Analysis program successfully stores marks in a two-dimensional list and calculates student-wise totals and averages, as well as subject-wise averages. It demonstrates the use of nested lists, nested loops, arithmetic operations, and conditional statements in Python.

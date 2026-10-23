@@ -1,0 +1,27 @@
+Start
+  |
+Input number of products
+  |
+Create products list
+  |
+Input product details and store as tuples
+  |
+Is products list empty?
+  | Yes: Display no products available
+  | No
+  |
+Initialize seen IDs, duplicate IDs, and low-stock lists
+  |
+Process each product tuple
+  |
+Check for duplicate product ID
+  |
+Check whether stock is less than five
+  |
+Are more products available?
+  | Yes: Process next product
+  | No
+  |
+Display audit results and complete catalogue
+  |
+Stop

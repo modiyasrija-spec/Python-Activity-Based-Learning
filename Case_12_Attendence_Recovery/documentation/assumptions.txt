@@ -1,0 +1,7 @@
+Assumptions
+
+1. The minimum required attendance percentage is 75%.
+2. Total classes conducted must be greater than zero.
+3. Classes attended must be between zero and the total number of classes conducted.
+4. The student attends every additional consecutive class without missing any.
+5. The required number of additional classes is calculated using the current attendance figures.

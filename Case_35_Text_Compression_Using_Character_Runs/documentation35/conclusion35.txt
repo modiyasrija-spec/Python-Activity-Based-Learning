@@ -1,0 +1,1 @@
+The Text Compression Using Character Runs program successfully groups consecutive identical characters and represents each group using the character and its count. It displays the original string, compressed string, and their lengths. This program demonstrates the use of strings, loops, conditional statements, and string operations in Python.

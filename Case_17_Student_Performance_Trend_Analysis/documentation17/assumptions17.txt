@@ -1,0 +1,9 @@
+Assumptions
+
+1. The number of students is entered by the user.
+2. Each student has marks for exactly three tests.
+3. Student names are entered as strings.
+4. Test marks are entered as numbers.
+5. The average is calculated using all three test marks.
+6. Performance trend is determined by comparing the third test mark with the first test mark.
+7. Higher third-test marks indicate an improving trend, lower marks indicate a declining trend, and equal marks indicate a stable trend.

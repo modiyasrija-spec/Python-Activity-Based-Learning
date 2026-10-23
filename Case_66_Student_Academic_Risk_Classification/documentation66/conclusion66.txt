@@ -1,0 +1,1 @@
+The Student Academic Risk Classification program classifies students according to their attendance percentages and average marks. It demonstrates the use of variables, data types, lists, tuples, loops, tuple unpacking, and conditional statements in Python.

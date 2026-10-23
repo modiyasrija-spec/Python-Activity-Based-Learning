@@ -1,0 +1,1 @@
+To develop a Python program that evaluates a student's examination answers by comparing them with predefined correct answers. The program displays whether each answer is correct or incorrect and calculates the student's final score.

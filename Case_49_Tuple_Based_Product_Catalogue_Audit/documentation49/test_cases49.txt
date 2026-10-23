@@ -1,0 +1,29 @@
+Test Case 1: Duplicate ID and low stock
+
+Input:
+Product 1: P101, Pen, 10, 20
+Product 2: P102, Book, 50, 3
+Product 3: P102, Notebook, 40, 8
+
+Expected results:
+Total product records: 3
+Duplicate product IDs: ['P102']
+Low-stock products: Book, stock 3
+
+Test Case 2: No duplicate IDs and no low stock
+
+Input:
+Product 1: P201, Pencil, 5, 10
+Product 2: P202, Bag, 200, 8
+
+Expected results:
+Duplicate product IDs: None
+Low-stock products: None
+
+Test Case 3: No products
+
+Input:
+Number of products: 0
+
+Expected result:
+No products available for audit.

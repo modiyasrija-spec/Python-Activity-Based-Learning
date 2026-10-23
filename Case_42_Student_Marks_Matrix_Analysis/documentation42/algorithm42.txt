@@ -1,0 +1,10 @@
+Step 1: Start.
+Step 2: Input the number of students and subjects.
+Step 3: If either value is not positive, display an invalid input message.
+Step 4: Otherwise, create an empty marks matrix.
+Step 5: Input each student's marks and store them in a row of the matrix.
+Step 6: Display the marks matrix.
+Step 7: For each student, calculate and display total marks and average marks.
+Step 8: For each subject, add the marks of all students.
+Step 9: Calculate and display the average for each subject.
+Step 10: Stop.

@@ -1,0 +1,3 @@
+Conclusion
+
+The Repeated Transaction Detection program identifies transaction IDs that appear more than once and displays each repeated ID only once. It demonstrates the use of Python strings, lists, loops, conditional statements, membership operators, and list operations.

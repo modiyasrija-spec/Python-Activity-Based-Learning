@@ -1,0 +1,1 @@
+To develop a Python program that audits financial transactions stored as tuples. The program calculates total credits, total debits, and net balance change, identifies duplicate transaction IDs, and displays the complete transaction list.

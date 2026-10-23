@@ -1,0 +1,40 @@
+BEGIN
+    INPUT n
+    CREATE empty transactions list
+
+    FOR each transaction from 1 to n
+        INPUT transaction_id, amount, transaction_type
+        CONVERT transaction_type to lowercase
+        STORE transaction as a tuple
+    END FOR
+
+    IF transactions is empty
+        DISPLAY no transactions available
+    ELSE
+        SET total_credit = 0
+        SET total_debit = 0
+        CREATE empty seen_ids and duplicate_ids lists
+
+        FOR each transaction
+            UNPACK transaction details
+
+            IF transaction_id is in seen_ids
+                IF transaction_id is not in duplicate_ids
+                    ADD transaction_id to duplicate_ids
+                END IF
+            ELSE
+                ADD transaction_id to seen_ids
+            END IF
+
+            IF transaction_type equals credit
+                ADD amount to total_credit
+            ELSE IF transaction_type equals debit
+                ADD amount to total_debit
+            END IF
+        END FOR
+
+        CALCULATE net balance change
+        DISPLAY totals and duplicate IDs
+        DISPLAY complete transaction list
+    END IF
+END

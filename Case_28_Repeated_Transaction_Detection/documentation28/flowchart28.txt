@@ -1,0 +1,25 @@
+Flowchart Logic
+
+Start
+↓
+Input number of transactions
+↓
+Create empty transactions and repeated lists
+↓
+Input transaction ID
+↓
+Is ID already in transactions?
+├── Yes → Is ID already in repeated?
+│             ├── Yes → Continue
+│             └── No → Add ID to repeated
+└── No → Add ID to transactions
+↓
+Are more transactions remaining?
+├── Yes → Input next transaction ID
+└── No → Display audit report
+↓
+Is repeated list empty?
+├── Yes → Display no repeated transactions
+└── No → Display repeated transaction IDs
+↓
+Stop

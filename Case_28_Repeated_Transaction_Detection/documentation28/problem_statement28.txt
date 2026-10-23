@@ -1,0 +1,5 @@
+Case Study 28: Repeated Transaction Detection
+
+Problem Statement
+
+Repeated transactions can occur when the same transaction ID appears more than once in a transaction record. This program accepts multiple transaction IDs, detects repeated IDs, and displays a report containing each repeated ID only once.

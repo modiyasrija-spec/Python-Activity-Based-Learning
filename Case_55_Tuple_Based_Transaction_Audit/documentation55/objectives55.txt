@@ -1,0 +1,7 @@
+1. To accept transaction details from the user.
+2. To store each transaction as a tuple.
+3. To calculate total credit amounts.
+4. To calculate total debit amounts.
+5. To calculate the net balance change.
+6. To identify duplicate transaction IDs.
+7. To practice tuples, lists, tuple unpacking, loops, conditional statements, and arithmetic operations in Python.

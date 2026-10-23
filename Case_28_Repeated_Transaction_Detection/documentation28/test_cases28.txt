@@ -1,0 +1,21 @@
+Test Cases
+
+Test Case 1: Repeated Transaction IDs
+
+Input:
+Number of transactions: 6
+Transaction IDs: TX101, TX102, TX103, TX101, TX104, TX102
+
+Expected output:
+Repeated transaction IDs:
+TX101
+TX102
+
+Test Case 2: No Repeated Transactions
+
+Input:
+Number of transactions: 3
+Transaction IDs: TX201, TX202, TX203
+
+Expected output:
+No repeated transactions found.

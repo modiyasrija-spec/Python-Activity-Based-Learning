@@ -1,0 +1,31 @@
+BEGIN
+    INPUT number_of_students
+    INPUT number_of_subjects
+
+    IF either number is less than or equal to zero
+        DISPLAY invalid input message
+    ELSE
+        CREATE empty marks_matrix
+
+        FOR each student
+            CREATE empty student_marks
+            FOR each subject
+                INPUT mark
+                ADD mark to student_marks
+            END FOR
+            ADD student_marks to marks_matrix
+        END FOR
+
+        FOR each student
+            CALCULATE total marks
+            CALCULATE average marks
+            DISPLAY marks, total, and average
+        END FOR
+
+        FOR each subject
+            CALCULATE total marks for that subject
+            CALCULATE subject average
+            DISPLAY subject average
+        END FOR
+    END IF
+END

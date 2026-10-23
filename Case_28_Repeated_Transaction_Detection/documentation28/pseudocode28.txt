@@ -1,0 +1,27 @@
+Pseudocode
+
+START
+
+INPUT number_of_transactions
+
+CREATE empty list transactions
+CREATE empty list repeated
+
+FOR each transaction:
+INPUT transaction_id
+
+IF transaction_id is in transactions:
+    IF transaction_id is not in repeated:
+        ADD transaction_id to repeated
+ELSE:
+    ADD transaction_id to transactions
+
+DISPLAY transaction audit report
+
+IF repeated is empty:
+DISPLAY "No repeated transactions found"
+ELSE:
+FOR each transaction_id in repeated:
+DISPLAY transaction_id
+
+STOP

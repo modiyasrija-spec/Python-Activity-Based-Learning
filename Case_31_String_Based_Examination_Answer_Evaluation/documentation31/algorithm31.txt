@@ -1,0 +1,13 @@
+Step 1: Start.
+Step 2: Store the questions and correct answers in lists.
+Step 3: Create an empty list to store student answers.
+Step 4: Initialize the score to zero.
+Step 5: Display each question and accept the student's answer.
+Step 6: Remove leading and trailing spaces and convert the answer to lowercase.
+Step 7: Store the student's answer.
+Step 8: Compare the student's answer with the correct answer.
+Step 9: If the answer matches, increase the score by one.
+Step 10: Repeat Steps 5 to 9 for all questions.
+Step 11: Display each question, student answer, correct answer, and result.
+Step 12: Display the number of correct and incorrect answers and the final score.
+Step 13: Stop.

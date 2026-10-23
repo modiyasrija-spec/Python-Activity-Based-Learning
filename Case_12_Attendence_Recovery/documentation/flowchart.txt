@@ -1,0 +1,35 @@
+Flowchart: Attendance Recovery Computation
+
+START
+|
+v
+Input total_classes and attended_classes
+|
+v
+Is total_classes <= 0?
+| Yes                 | No
+v                     v
+Display invalid     Is attended_classes < 0
+total classes       or attended_classes > total_classes?
+|                     | Yes             | No
+v                     v                 v
+STOP               Display invalid   Calculate attendance
+attended classes  percentage
+|                 |
+v                 v
+STOP        Is percentage >= 75%?
+| Yes       | No
+v           v
+Display       Set required = 0
+eligible          |
+|             v
+|        While attendance
+|        after extra classes
+|        is below 75%:
+|        required = required + 1
+|             |
+v             v
+STOP       Display required
+|
+v
+STOPs

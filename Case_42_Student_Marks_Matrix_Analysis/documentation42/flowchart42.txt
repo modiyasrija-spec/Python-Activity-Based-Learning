@@ -1,0 +1,19 @@
+Start
+  |
+Input number of students and subjects
+  |
+Are both values positive?
+  | No: Display invalid input message and Stop
+  | Yes
+  |
+Create marks matrix
+  |
+Input and store marks using nested loops
+  |
+Display student marks
+  |
+Calculate and display each student's total and average
+  |
+Calculate and display each subject's average
+  |
+Stop

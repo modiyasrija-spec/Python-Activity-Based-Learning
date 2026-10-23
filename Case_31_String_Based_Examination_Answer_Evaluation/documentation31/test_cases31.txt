@@ -1,0 +1,29 @@
+Test Case 1: All answers correct
+Input:
+New Delhi
+Python
+Central Processing Unit
+Expected Output:
+Correct answers: 3
+Incorrect answers: 0
+Final score: 3 / 3
+
+Test Case 2: One answer incorrect
+Input:
+Mumbai
+Python
+Central Processing Unit
+Expected Output:
+Correct answers: 2
+Incorrect answers: 1
+Final score: 2 / 3
+
+Test Case 3: All answers incorrect
+Input:
+Mumbai
+Java
+Computer Processing Unit
+Expected Output:
+Correct answers: 0
+Incorrect answers: 3
+Final score: 0 / 3

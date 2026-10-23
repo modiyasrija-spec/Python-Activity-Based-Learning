@@ -1,0 +1,33 @@
+Pseudocode
+
+START
+
+INPUT number_of_students
+CREATE empty list students
+
+FOR each student:
+INPUT student_name
+CREATE empty list marks
+
+FOR test_number from 1 to 3:
+    INPUT test_mark
+    ADD test_mark to marks
+
+average = SUM(marks) / 3
+
+IF marks[2] > marks[0]:
+    trend = "Improving"
+ELSE IF marks[2] < marks[0]:
+    trend = "Declining"
+ELSE:
+    trend = "Stable"
+
+STORE (student_name, marks, average, trend) in students
+
+FOR each student in students:
+DISPLAY student_name
+DISPLAY marks
+DISPLAY average
+DISPLAY trend
+
+STOP

@@ -1,0 +1,34 @@
+Pseudocode: Attendance Recovery Computation
+
+BEGIN
+
+INPUT total_classes
+INPUT attended_classes
+
+IF total_classes <= 0 THEN
+PRINT "Invalid total classes"
+
+ELSE IF attended_classes < 0 OR attended_classes > total_classes THEN
+PRINT "Invalid number of classes attended"
+
+ELSE
+percentage = (attended_classes / total_classes) * 100
+PRINT percentage
+
+IF percentage >= 75 THEN
+    PRINT "Attendance requirement satisfied"
+
+ELSE
+    required = 0
+
+    WHILE ((attended_classes + required) /
+          (total_classes + required)) * 100 < 75
+        required = required + 1
+    END WHILE
+
+    PRINT required
+END IF
+
+END IF
+
+END

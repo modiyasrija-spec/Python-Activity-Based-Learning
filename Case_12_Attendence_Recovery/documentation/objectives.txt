@@ -1,0 +1,7 @@
+Objectives
+
+1. To calculate the student's current attendance percentage.
+2. To check whether the student satisfies the minimum attendance requirement of 75%.
+3. To calculate the minimum number of additional consecutive classes needed to reach 75% attendance.
+4. To validate the input values and display appropriate messages for invalid data.
+5. To practise Python variables, arithmetic operators, conditional statements, and loops.

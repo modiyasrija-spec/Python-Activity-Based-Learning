@@ -1,0 +1,6 @@
+1. The input is treated as a string.
+2. Characters are compared exactly, including uppercase and lowercase letters.
+3. Only consecutive occurrences of the same character are grouped together.
+4. Each run is represented by the character followed by its count.
+5. An empty string produces an empty compressed string.
+6. The compressed representation may be longer than the original string.

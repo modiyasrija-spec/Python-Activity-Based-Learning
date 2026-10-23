@@ -1,0 +1,7 @@
+Objectives
+
+1. To calculate the expected closing stock of multiple products.
+2. To compare expected stock with actual closing stock.
+3. To identify stock discrepancies.
+4. To determine the replenishment quantity required for stock shortages.
+5. To use variables, data types, operators, conditional statements, loops, lists, and tuples in Python.

@@ -1,0 +1,7 @@
+1. The number of students is entered by the user.
+2. Student names are entered as strings.
+3. Attendance percentages and average marks are entered as numeric values.
+4. High Risk: attendance is below 75% OR average marks are below 40.
+5. Moderate Risk: if not High Risk, attendance is below 85% OR average marks are below 60.
+6. Otherwise, the student is classified as Low Risk.
+7. Inputs are assumed to be valid; the program does not validate the entered ranges.

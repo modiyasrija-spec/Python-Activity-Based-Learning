@@ -1,0 +1,5 @@
+1. To accept student names, attendance percentages, and average marks.
+2. To classify students into three academic risk categories.
+3. To use conditional statements to determine academic risk.
+4. To store student details using tuples inside a list.
+5. To display an academic risk report for all students.

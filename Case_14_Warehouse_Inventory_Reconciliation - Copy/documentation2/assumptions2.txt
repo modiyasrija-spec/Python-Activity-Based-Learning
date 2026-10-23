@@ -1,0 +1,9 @@
+Assumptions
+
+1. The number of products is entered by the user.
+2. Product names are entered as strings.
+3. Stock quantities are entered as integers.
+4. Opening stock, incoming quantity, dispatched quantity, and actual closing stock are expected to be non-negative.
+5. Expected closing stock is calculated as opening stock + incoming quantity - dispatched quantity.
+6. A negative discrepancy indicates a stock shortage.
+7. Replenishment quantity is calculated for shortages only.

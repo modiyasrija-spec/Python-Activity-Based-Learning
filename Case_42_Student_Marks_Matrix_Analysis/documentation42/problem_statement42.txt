@@ -1,0 +1,1 @@
+To develop a Python program that stores student marks in a two-dimensional list (matrix). The program calculates and displays each student's total and average marks, along with the average marks for each subject.

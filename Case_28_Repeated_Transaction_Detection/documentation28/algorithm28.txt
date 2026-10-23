@@ -1,0 +1,14 @@
+Algorithm
+
+1. Start.
+2. Input the number of transactions.
+3. Create two empty lists: transactions and repeated.
+4. Repeat for each transaction:
+   a. Input the transaction ID.
+   b. Check whether the ID already exists in transactions.
+   c. If it exists and is not already in repeated, add it to repeated.
+   d. Otherwise, if it does not exist in transactions, add it to transactions.
+5. Display the transaction audit report.
+6. If repeated is empty, display that no repeated transactions were found.
+7. Otherwise, display all repeated transaction IDs.
+8. Stop.

@@ -1,0 +1,25 @@
+Start
+  |
+Input string
+  |
+Initialize compressed string
+  |
+Is the string empty?
+  | Yes: Display empty compressed string
+  | No
+  |
+Initialize count = 1
+  |
+Compare current character with previous character
+  |
+Are they equal?
+  | Yes: Increase count
+  | No: Append previous character and count; reset count
+  |
+Are more characters available?
+  | Yes: Repeat comparison
+  | No: Append final character and count
+  |
+Display original and compressed strings and their lengths
+  |
+Stop

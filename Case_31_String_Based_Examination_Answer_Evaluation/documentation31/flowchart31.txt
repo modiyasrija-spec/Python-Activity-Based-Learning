@@ -1,0 +1,23 @@
+Start
+  |
+Store questions and correct answers
+  |
+Initialize score and student answer list
+  |
+Display question and accept answer
+  |
+Normalize and store student answer
+  |
+Compare answer with correct answer
+  |
+Is the answer correct?
+  | Yes: Increase score
+  | No: Keep score unchanged
+  |
+Are more questions available?
+  | Yes: Repeat question and answer steps
+  | No
+  |
+Display results and final score
+  |
+Stop

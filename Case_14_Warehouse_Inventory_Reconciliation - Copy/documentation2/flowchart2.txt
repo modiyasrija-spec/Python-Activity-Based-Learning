@@ -1,0 +1,25 @@
+Flowchart Logic
+
+Start
+↓
+Input number of products
+↓
+Repeat for each product
+↓
+Input product details
+↓
+Calculate expected closing stock
+↓
+Calculate discrepancy
+↓
+Is expected stock negative?
+├── Yes → Display invalid stock movement
+└── No → Is discrepancy non-zero?
+├── Yes → Display discrepancy and shortage replenishment
+└── No → Display stock reconciled
+↓
+Store product details in a list of tuples
+↓
+Display inventory reconciliation report
+↓
+Stop

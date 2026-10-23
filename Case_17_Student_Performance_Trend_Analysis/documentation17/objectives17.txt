@@ -1,0 +1,7 @@
+Objectives
+
+1. To collect the names and marks of multiple students.
+2. To store test marks using Python lists.
+3. To calculate the average marks of each student.
+4. To identify whether a student's performance is improving, declining, or stable.
+5. To use variables, data types, operators, conditional statements, loops, lists, tuples, and tuple unpacking.

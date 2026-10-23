@@ -1,0 +1,6 @@
+1. To accept a string from the user.
+2. To identify consecutive repeated characters.
+3. To count the occurrences of each consecutive character.
+4. To generate a compressed representation of the string.
+5. To display the original and compressed strings and their lengths.
+6. To practice strings, loops, conditional statements, and string operations in Python.

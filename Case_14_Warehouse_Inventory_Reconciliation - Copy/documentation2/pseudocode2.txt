@@ -1,0 +1,38 @@
+Pseudocode
+
+START
+
+INPUT number_of_products
+CREATE empty list products
+
+FOR each product:
+INPUT product_name
+INPUT opening_stock
+INPUT incoming_quantity
+INPUT dispatched_quantity
+INPUT actual_closing_stock
+
+expected_stock = opening_stock + incoming_quantity - dispatched_quantity
+discrepancy = actual_closing_stock - expected_stock
+
+IF expected_stock < 0:
+    status = "Invalid stock movement"
+    replenishment = 0
+ELSE IF discrepancy != 0:
+    status = "Stock discrepancy detected"
+    replenishment = maximum of 0 and negative discrepancy
+ELSE:
+    status = "Stock reconciled"
+    replenishment = 0
+
+STORE product details as a tuple in products
+
+FOR each product in products:
+DISPLAY product name
+DISPLAY expected stock
+DISPLAY actual stock
+DISPLAY discrepancy
+DISPLAY status
+DISPLAY replenishment quantity
+
+STOP

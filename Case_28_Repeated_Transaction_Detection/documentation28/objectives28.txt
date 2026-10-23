@@ -1,0 +1,7 @@
+Objectives
+
+1. To accept multiple transaction IDs from the user.
+2. To identify repeated transaction IDs.
+3. To avoid displaying the same repeated ID multiple times.
+4. To display a transaction audit report.
+5. To use Python variables, strings, lists, loops, conditional statements, and list operations.

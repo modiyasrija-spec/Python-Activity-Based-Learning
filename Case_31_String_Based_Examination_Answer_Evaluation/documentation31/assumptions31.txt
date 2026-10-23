@@ -1,0 +1,7 @@
+1. The examination contains three predefined questions.
+2. Each question has one predefined correct answer.
+3. Answers are evaluated using text comparison.
+4. Uppercase and lowercase differences are ignored.
+5. Leading and trailing spaces in student answers are removed.
+6. Each correct answer receives one mark.
+7. No negative marks are awarded.

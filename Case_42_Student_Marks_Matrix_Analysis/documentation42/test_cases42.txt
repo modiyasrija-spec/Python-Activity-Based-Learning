@@ -1,0 +1,23 @@
+Test Case 1: Two students and three subjects
+
+Input:
+Student 1: 80, 90, 70
+Student 2: 60, 75, 85
+
+Expected output:
+Student 1 total: 240
+Student 1 average: 80.00
+Student 2 total: 220
+Student 2 average: 73.33
+Subject 1 average: 70.00
+Subject 2 average: 82.50
+Subject 3 average: 77.50
+
+Test Case 2: Invalid number of students
+
+Input:
+Number of students: 0
+Number of subjects: 3
+
+Expected output:
+Invalid number of students or subjects

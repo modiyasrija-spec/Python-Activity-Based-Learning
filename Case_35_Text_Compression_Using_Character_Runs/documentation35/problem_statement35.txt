@@ -1,0 +1,1 @@
+To develop a Python program that compresses a string by counting consecutive occurrences of the same character. The program represents each consecutive character run using the character followed by its count.

@@ -1,0 +1,6 @@
+1. To accept answers from a student.
+2. To compare student answers with the correct answers.
+3. To identify correct and incorrect answers.
+4. To calculate the total score.
+5. To display the examination result.
+6. To practice strings, lists, loops, conditional statements, and string operations in Python.

@@ -1,0 +1,5 @@
+1. The number of students and subjects must be positive integers.
+2. Marks are entered as numbers.
+3. Each student has marks for the same number of subjects.
+4. The program calculates averages using the number of subjects or students entered.
+5. The program does not validate whether marks fall within a particular examination range.

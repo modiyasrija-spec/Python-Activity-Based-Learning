@@ -1,0 +1,25 @@
+Flowchart Logic
+
+Start
+↓
+Input number of students
+↓
+Create empty students list
+↓
+Input student name and three test marks
+↓
+Calculate average marks
+↓
+Is third test mark greater than first?
+├── Yes → Trend = Improving
+└── No → Is third test mark lower than first?
+├── Yes → Trend = Declining
+└── No → Trend = Stable
+↓
+Store student details as a tuple
+↓
+Are more students remaining?
+├── Yes → Input next student's details
+└── No → Display student performance report
+↓
+Stop

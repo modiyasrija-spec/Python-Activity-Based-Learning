@@ -1,0 +1,5 @@
+Case Study 14: Warehouse Inventory Reconciliation
+
+Problem Statement
+
+A warehouse stores multiple products and records their opening stock, incoming quantities, dispatched quantities, and actual closing stock. The program calculates the expected closing stock for each product and compares it with the actual closing stock. It identifies stock discrepancies, displays the reconciliation status, and calculates the replenishment quantity required when a shortage is detected.

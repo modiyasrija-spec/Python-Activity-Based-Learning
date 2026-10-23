@@ -1,0 +1,14 @@
+Step 1: Start.
+Step 2: Input the number of transactions.
+Step 3: Create an empty transactions list.
+Step 4: Input the ID, amount, and type for each transaction.
+Step 5: Store each transaction as a tuple.
+Step 6: If there are no transactions, display a suitable message.
+Step 7: Otherwise, initialize credit and debit totals to zero and create lists for seen IDs and duplicate IDs.
+Step 8: Traverse each transaction tuple and unpack its values.
+Step 9: Check whether the transaction ID has appeared before and record duplicates without repeating them.
+Step 10: If the transaction type is credit, add its amount to total credits.
+Step 11: If the transaction type is debit, add its amount to total debits.
+Step 12: Calculate net balance change by subtracting total debits from total credits.
+Step 13: Display totals, duplicate IDs, and the complete transaction list.
+Step 14: Stop.

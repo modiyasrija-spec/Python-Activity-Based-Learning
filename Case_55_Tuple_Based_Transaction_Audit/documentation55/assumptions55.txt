@@ -1,0 +1,9 @@
+1. The number of transactions is entered as an integer.
+2. Transaction IDs are entered as strings.
+3. Transaction amounts are entered as numbers.
+4. Transaction types are entered as Credit or Debit.
+5. Transaction types are converted to lowercase before checking.
+6. Transaction IDs are compared exactly and are case-sensitive.
+7. Each duplicate transaction ID is reported only once.
+8. Amounts are assumed to be non-negative.
+9. Only valid Credit and Debit transaction types are expected.

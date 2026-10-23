@@ -1,0 +1,33 @@
+Test Case 1: Credits, debits, and duplicate ID
+
+Input:
+T101, 1000, Credit
+T102, 300, Debit
+T101, 500, Credit
+
+Expected results:
+Total transactions: 3
+Total credits: 1500.00
+Total debits: 300.00
+Net balance change: 1200.00
+Duplicate transaction IDs: ['T101']
+
+Test Case 2: No duplicate IDs
+
+Input:
+T201, 200, Credit
+T202, 50, Debit
+
+Expected results:
+Total credits: 200.00
+Total debits: 50.00
+Net balance change: 150.00
+Duplicate transaction IDs: None
+
+Test Case 3: No transactions
+
+Input:
+Number of transactions: 0
+
+Expected result:
+No transactions available for audit.

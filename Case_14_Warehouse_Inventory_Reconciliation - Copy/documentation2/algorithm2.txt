@@ -1,0 +1,16 @@
+Algorithm
+
+1. Start.
+2. Read the number of products.
+3. Create an empty list to store product details.
+4. Repeat for each product:
+   a. Read the product name.
+   b. Read opening stock, incoming quantity, dispatched quantity, and actual closing stock.
+   c. Calculate expected closing stock = opening stock + incoming quantity - dispatched quantity.
+   d. Calculate discrepancy = actual closing stock - expected closing stock.
+   e. If expected closing stock is negative, display invalid stock movement.
+   f. Otherwise, if discrepancy is not zero, display stock discrepancy detected and calculate replenishment for shortages.
+   g. Otherwise, display stock reconciled.
+   h. Store the product details in a tuple and append it to the list.
+5. Display the inventory reconciliation report for all products.
+6. Stop.

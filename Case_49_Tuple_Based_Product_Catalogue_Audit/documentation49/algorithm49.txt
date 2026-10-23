@@ -1,0 +1,15 @@
+Step 1: Start.
+Step 2: Input the number of products.
+Step 3: Create an empty products list.
+Step 4: For each product, input its ID, name, price, and stock quantity.
+Step 5: Store the product details as a tuple in the products list.
+Step 6: Display the product catalogue audit heading.
+Step 7: If the products list is empty, display a message.
+Step 8: Otherwise, create lists for seen IDs, duplicate IDs, and low-stock products.
+Step 9: Traverse each product tuple and unpack its values.
+Step 10: Check whether the product ID has appeared before. If it has, add it to the duplicate list if not already present; otherwise, add it to the seen IDs list.
+Step 11: If the stock quantity is less than five, add the product details to the low-stock list.
+Step 12: Display the total number of product records.
+Step 13: Display duplicate product IDs and low-stock products, or suitable messages if none exist.
+Step 14: Display the complete product catalogue.
+Step 15: Stop.

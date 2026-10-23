@@ -1,0 +1,40 @@
+Test Cases
+
+Test Case 1: Improving Performance
+
+Input:
+Student name: Ravi
+Test 1 marks: 40
+Test 2 marks: 60
+Test 3 marks: 80
+
+Expected output:
+Test marks: [40.0, 60.0, 80.0]
+Average marks: 60.00
+Performance trend: Improving
+
+Test Case 2: Declining Performance
+
+Input:
+Student name: Sita
+Test 1 marks: 80
+Test 2 marks: 70
+Test 3 marks: 60
+
+Expected output:
+Test marks: [80.0, 70.0, 60.0]
+Average marks: 70.00
+Performance trend: Declining
+
+Test Case 3: Stable Performance
+
+Input:
+Student name: Arun
+Test 1 marks: 75
+Test 2 marks: 65
+Test 3 marks: 75
+
+Expected output:
+Test marks: [75.0, 65.0, 75.0]
+Average marks: 71.67
+Performance trend: Stable

@@ -1,0 +1,6 @@
+1. To accept marks for multiple students and subjects.
+2. To store marks in a two-dimensional list.
+3. To calculate each student's total marks.
+4. To calculate each student's average marks.
+5. To calculate the average marks for each subject.
+6. To practice nested lists, nested loops, variables, arithmetic operators, and formatted output in Python.

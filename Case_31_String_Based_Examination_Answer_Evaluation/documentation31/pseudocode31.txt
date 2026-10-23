@@ -1,0 +1,22 @@
+BEGIN
+    Store questions and correct answers
+    Set score = 0
+    Create empty student_answers list
+
+    FOR each question
+        Display question
+        Input student answer
+        Remove extra spaces
+        Convert answer to lowercase
+        Store student answer
+
+        IF student answer equals correct answer
+            Increase score by 1
+        END IF
+    END FOR
+
+    Display all answers and their results
+    Display correct answers count
+    Display incorrect answers count
+    Display final score
+END

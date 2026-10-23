@@ -1,0 +1,8 @@
+1. The number of product records is entered as an integer.
+2. Product IDs and names are entered as strings.
+3. Product prices are entered as numbers.
+4. Stock quantities are entered as integers.
+5. Product IDs are compared exactly and are case-sensitive.
+6. A product is considered low-stock when its stock quantity is less than five.
+7. Each duplicated product ID is reported only once.
+8. The program does not validate negative prices or stock quantities.

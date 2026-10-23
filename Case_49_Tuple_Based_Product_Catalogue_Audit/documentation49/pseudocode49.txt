@@ -1,0 +1,36 @@
+BEGIN
+    INPUT n
+    CREATE empty products list
+
+    FOR each product from 1 to n
+        INPUT product_id, name, price, stock
+        STORE (product_id, name, price, stock) in products
+    END FOR
+
+    IF products is empty
+        DISPLAY no products available
+    ELSE
+        CREATE empty seen_ids, duplicate_ids, low_stock lists
+
+        FOR each product in products
+            UNPACK product details
+
+            IF product_id is in seen_ids
+                IF product_id is not in duplicate_ids
+                    ADD product_id to duplicate_ids
+                END IF
+            ELSE
+                ADD product_id to seen_ids
+            END IF
+
+            IF stock is less than 5
+                ADD product details to low_stock
+            END IF
+        END FOR
+
+        DISPLAY total product records
+        DISPLAY duplicate product IDs or None
+        DISPLAY low-stock products or None
+        DISPLAY complete catalogue
+    END IF
+END

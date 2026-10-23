@@ -1,0 +1,6 @@
+1. To accept product details from the user.
+2. To store each product as a tuple.
+3. To identify duplicate product IDs.
+4. To identify products with stock quantities below five.
+5. To display the complete product catalogue.
+6. To practice tuples, lists, tuple unpacking, loops, conditional statements, and membership operators in Python.

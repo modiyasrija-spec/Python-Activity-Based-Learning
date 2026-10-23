@@ -1,0 +1,5 @@
+Case Study 17: Student Performance Trend Analysis
+
+Problem Statement
+
+The program analyzes the academic performance of multiple students across three tests. It accepts each student's name and test marks, calculates the average marks, and identifies the performance trend by comparing the marks obtained in the first and third tests. The trend is classified as Improving, Declining, or Stable.

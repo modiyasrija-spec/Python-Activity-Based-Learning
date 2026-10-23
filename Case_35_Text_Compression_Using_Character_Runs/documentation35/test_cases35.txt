@@ -1,0 +1,19 @@
+Test Case 1:
+Input: aaabbc
+Expected compressed output: a3b2c1
+
+Test Case 2:
+Input: aaaa
+Expected compressed output: a4
+
+Test Case 3:
+Input: abc
+Expected compressed output: a1b1c1
+
+Test Case 4:
+Input: aabbaa
+Expected compressed output: a2b2a2
+
+Test Case 5:
+Input: empty string
+Expected compressed output: empty string

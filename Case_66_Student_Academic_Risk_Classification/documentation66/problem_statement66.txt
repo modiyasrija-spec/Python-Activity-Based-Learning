@@ -1,0 +1,1 @@
+Develop a Python program to classify students into High Risk, Moderate Risk, or Low Risk based on their attendance percentage and average marks. The program should accept details for multiple students and display their academic risk category.

@@ -1,0 +1,21 @@
+Start
+↓
+Input number of students
+↓
+Create an empty students list
+↓
+Input student name, attendance, and average marks
+↓
+Is attendance < 75 OR average marks < 40?
+├── Yes → Assign High Risk
+└── No → Is attendance < 85 OR average marks < 60?
+├── Yes → Assign Moderate Risk
+└── No → Assign Low Risk
+↓
+Store student details as a tuple
+↓
+Are more students remaining?
+├── Yes → Input the next student's details
+└── No → Display the academic risk report
+↓
+Stop

@@ -1,0 +1,13 @@
+1. Start.
+2. Input the number of students.
+3. Create an empty list named students.
+4. Repeat for each student:
+   a. Input the student's name.
+   b. Input attendance percentage.
+   c. Input average marks.
+   d. If attendance is below 75 or average marks are below 40, assign High Risk.
+   e. Otherwise, if attendance is below 85 or average marks are below 60, assign Moderate Risk.
+   f. Otherwise, assign Low Risk.
+   g. Store the details and risk category as a tuple in the students list.
+5. Display the academic risk report.
+6. Stop.

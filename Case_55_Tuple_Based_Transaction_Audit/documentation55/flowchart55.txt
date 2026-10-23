@@ -1,0 +1,33 @@
+Start
+  |
+Input number of transactions
+  |
+Input transaction details and store as tuples
+  |
+Are transactions available?
+  | No: Display no transactions available
+  | Yes
+  |
+Initialize credit and debit totals and audit lists
+  |
+Process each transaction tuple
+  |
+Check for duplicate transaction ID
+  |
+Is transaction type Credit?
+  | Yes: Add amount to total credits
+  | No
+  |
+Is transaction type Debit?
+  | Yes: Add amount to total debits
+  | No
+  |
+Are more transactions available?
+  | Yes: Process next transaction
+  | No
+  |
+Calculate net balance change
+  |
+Display audit report and transaction list
+  |
+Stop

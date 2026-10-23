@@ -1,0 +1,17 @@
+Algorithm: Attendance Recovery Computation
+
+1. Start.
+2. Input the total number of classes conducted.
+3. Input the number of classes attended.
+4. Check whether the total classes are greater than zero.
+5. If not, display "Invalid total classes" and stop.
+6. Check whether attended classes are between zero and total classes.
+7. If not, display "Invalid number of classes attended" and stop.
+8. Calculate attendance percentage using:
+   Attendance Percentage = (Attended Classes / Total Classes) × 100.
+9. Display the current attendance percentage.
+10. If attendance is at least 75%, display "Attendance requirement satisfied".
+11. Otherwise, initialize the number of additional classes to zero.
+12. Increase the additional class count until the attendance percentage reaches 75%, assuming every future class is attended.
+13. Display the additional consecutive classes required.
+14. Stop.

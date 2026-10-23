@@ -1,0 +1,23 @@
+Test Case 1:
+Input:
+Student name: Ravi
+Attendance: 60
+Average marks: 35
+Expected output: High Risk
+
+Test Case 2:
+Input:
+Student name: Sita
+Attendance: 80
+Average marks: 55
+Expected output: Moderate Risk
+
+Test Case 3:
+Input:
+Student name: Arun
+Attendance: 90
+Average marks: 75
+Expected output: Low Risk
+
+Result:
+All three test cases produce the expected risk categories.

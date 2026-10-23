@@ -1,0 +1,24 @@
+BEGIN
+    INPUT text
+    compressed = ""
+
+    IF length of text > 0 THEN
+        count = 1
+
+        FOR i from 1 to length of text - 1
+            IF text[i] equals text[i - 1] THEN
+                count = count + 1
+            ELSE
+                Append text[i - 1] and count to compressed
+                count = 1
+            END IF
+        END FOR
+
+        Append last character and count to compressed
+    END IF
+
+    DISPLAY original text
+    DISPLAY compressed text
+    DISPLAY original length
+    DISPLAY compressed length
+END

@@ -1,0 +1,8 @@
+Assumptions
+
+1. The number of transactions is entered by the user.
+2. Transaction IDs are entered as strings.
+3. Transaction IDs are compared exactly as entered.
+4. A transaction ID is considered repeated if it appears more than once.
+5. Each repeated transaction ID is displayed only once in the report.
+6. The program processes the transaction IDs entered during one execution.

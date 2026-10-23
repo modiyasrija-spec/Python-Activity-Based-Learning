@@ -1,0 +1,11 @@
+Step 1: Start.
+Step 2: Accept a string from the user.
+Step 3: Initialize the compressed string as empty.
+Step 4: If the input is not empty, initialize the character count to one.
+Step 5: Traverse the string from the second character.
+Step 6: If the current character matches the previous character, increase the count.
+Step 7: Otherwise, append the previous character and its count to the compressed string, then reset the count to one.
+Step 8: After the loop, append the final character and its count.
+Step 9: Display the original string and compressed string.
+Step 10: Display the lengths of both strings.
+Step 11: Stop.

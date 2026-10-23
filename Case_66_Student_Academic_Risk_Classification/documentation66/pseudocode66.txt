@@ -1,0 +1,25 @@
+BEGIN
+INPUT n
+CREATE empty list students
+
+FOR each student from 1 to n
+    INPUT name
+    INPUT attendance
+    INPUT average_marks
+
+    IF attendance < 75 OR average_marks < 40 THEN
+        risk = "High Risk"
+    ELSE IF attendance < 85 OR average_marks < 60 THEN
+        risk = "Moderate Risk"
+    ELSE
+        risk = "Low Risk"
+    END IF
+
+    STORE (name, attendance, average_marks, risk) in students
+END FOR
+
+FOR each student in students
+    DISPLAY student details and risk
+END FOR
+
+END

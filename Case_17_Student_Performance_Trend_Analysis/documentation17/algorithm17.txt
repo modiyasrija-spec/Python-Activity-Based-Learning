@@ -1,0 +1,17 @@
+Algorithm
+
+1. Start.
+2. Input the number of students.
+3. Create an empty list to store student details.
+4. Repeat for each student:
+   a. Input the student's name.
+   b. Create an empty list for test marks.
+   c. Input marks for three tests and store them in the list.
+   d. Calculate the average of the three test marks.
+   e. Compare the third test mark with the first test mark.
+   f. If the third mark is greater, set the trend to Improving.
+   g. If the third mark is lower, set the trend to Declining.
+   h. Otherwise, set the trend to Stable.
+   i. Store the student's details as a tuple in the list.
+5. Display each student's name, test marks, average marks, and performance trend.
+6. Stop.
